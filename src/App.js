@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './pages/Header/Header';
+import ShopPlant from './pages/ShopPlant/ShopPlant';
+import Home from './pages/Home/Home';
+import Footer from './pages/Footer/Footer';
+import Planter from './pages/Planter/Planter';
+import PlantCare from './pages/PlantCare/PlantCare';
+import DecorIdea from './pages/DecorIdea/DecorIdea';
+import Services from './pages/Services/Services';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Router>
+      <Header></Header>
+      <Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/home" element={<Home />} />
+  <Route path="/shopplants" element={<ShopPlant />} />
+  <Route path="/planters" element={<Planter />} />
+  <Route path="/Decoridea" element={<DecorIdea />} />
+  <Route path="/plantcare" element={<PlantCare />} />
+  <Route path="/services" element={<Services />} />
+
+
+</Routes>
+<Footer></Footer>
+
+      </Router>
     </div>
   );
 }

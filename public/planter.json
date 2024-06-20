@@ -1,0 +1,101 @@
+[
+    {
+      "name": "Small Nala Planter",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/small-nala-planter-cream-pot-tumbleweed-plants-772888.jpg?v=1717570283&width=800",
+      "price": 180,
+      "category": "S",
+      "ppl": 350
+    },
+    {
+      "name": "Large Luna Cylinder Pot",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/large-luna-cylinder-pot-26cm-pot-tumbleweed-plants-892279.jpg?v=1717901352&width=800",
+      "price": 200,
+      "category": "L",
+      "ppl": 222
+    },
+    
+    {
+      "name": "Small Tulip Terracotta with Tray",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/small-tulip-terracotta-with-tray-white-pot-tumbleweed-plants-909226.jpg?v=1717570287&width=800",
+      "price": 150,
+      "category": "S",
+      "ppl": 401
+    },
+    {
+      "name": "Medium Eloise with Tray",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/medium-eloise-with-tray-black-pot-tumbleweed-plants-103279.jpg?v=1717570042&width=800",
+      "price": 210,
+      "category": "M",
+      "ppl": 321
+    },
+    {
+      "name": "Vina Planter Box",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/vina-planter-box-black-pot-tumbleweed-plants-856933.jpg?v=1717819144&width=800",
+      "price": 500,
+      "category": "L",
+      "ppl": 345
+    },
+    {
+      "name": "Terracotta Wooden Pot",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/terracotta-wooden-pot-black-pot-tumbleweed-plants-699499.jpg?v=1717570324&width=1200",
+      "price": 400,
+      "category": "XS",
+      "ppl": 541
+    },
+    {
+      "name": "Small Eloise with Tray",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/small-eloise-with-tray-grey-pot-tumbleweed-plants-293736.jpg?v=1717570285&width=800",
+      "price": 320,
+      "category": "S",
+      "ppl": 124
+    },
+    {
+      "name": "XS Eloise with Tray",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/xs-eloise-with-tray-black-pot-tumbleweed-plants-720819.jpg?v=1717570334&width=800",
+      "price": 360,
+      "category": "XS",
+      "ppl": 213
+    },
+    {
+      "name": "Large Garath Planter",
+      "img": "https://tumbleweedplants.com/cdn/shop/products/large-garath-planter-large-pot-tumbleweed-plants-920472.jpg?v=1710941174&width=800",
+      "price": 280,
+      "category": "L",
+      "ppl": 197
+    },
+    {
+      "name": "Black Ceramic Sand Pot",
+      "img": "https://tumbleweedplants.com/cdn/shop/products/black-ceramic-sand-pot-pot-tumbleweed-plants-277699.jpg?v=1703227793&width=800",
+      "price": 320,
+      "category": "S",
+      "ppl": 401
+    },
+    {
+      "name": "Extra Large Egg Pot",
+      "img": "https://tumbleweedplants.com/cdn/shop/products/extra-large-egg-pots-white-pot-tumbleweed-plants-937867.jpg?v=1716961784&width=800",
+      "price": 280,
+      "category": "XL",
+      "ppl": 358
+    },
+    {
+      "name": "Koala Planters",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/IMG_9426.heic?v=1710993461&width=800",
+      "price": 245,
+      "category": "XS",
+      "ppl": 149
+    },
+    {
+      "name": "Glossy White Ceramic Scale with Tray",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/glossy-white-ceramic-scale-with-tray-pot-tumbleweed-plants-153423.jpg?v=1713261223&width=800",
+      "price": 323,
+      "category": "M",
+      "ppl": 312
+    },
+    {
+      "name": "Rustic Terra Pot",
+      "img": "https://tumbleweedplants.com/cdn/shop/files/rustic-terra-pot-pot-tumbleweed-plants-612933.jpg?v=1712930000&width=800",
+      "price": 234,
+      "category": "L",
+      "ppl": 223
+    }
+  ]
