@@ -12,37 +12,39 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Header = () => {
     return (
         <div>
-          <div className='d-flex justify-content-between p-1 pt-1  caveat text-success' style={{ backgroundColor: 'rgba(0, 0, 0, 0.07)' }}>
-       <small className='px-3'>Free Delivery above 800 tk + 10-Day Guarantee</small>
-     <div><small className='px-2'><FontAwesomeIcon style={{fontSize:'1vw'}} icon={faPhone} /> 01878180587  </small>  <small><FontAwesomeIcon style={{fontSize:'1vw'}} icon={faLocationDot} /> Dhaka,Bangladesh  </small>
-     <small className='px-3'><FontAwesomeIcon style={{fontSize:'1vw'}}  icon={faEnvelope} /> plantous@gmail.com</small></div>
+          <div className='row p-1 pt-1  caveat text-success' style={{ backgroundColor: 'rgba(0, 0, 0, 0.07)' }}>
+       <small style={{fontSize:'18px'}} className='px-3 col-lg-4'>Free Delivery above 800 tk + 10-Day Guarantee</small>
+       <div className='col-lg'></div>
+     <div className='col-lg'>
+      <small style={{fontSize:'18px'}} className='px-2'><FontAwesomeIcon style={{fontSize:'14px'}} icon={faPhone} /> 01878180587  </small> 
+      
+     <small style={{fontSize:'18px'}} className='px-2'><FontAwesomeIcon style={{fontSize:'14px'}}  icon={faEnvelope} /> plantous@gmail.com</small></div>
         
       </div>
       <div style={{position:'-webkit-sticky',position:'sticky',top:'0'}}>
       <Navbar  sticky='top' expand="lg" className="bg-light" >
       <Container >
-        <Navbar.Brand className='text-success lobster-regular ' style={{fontSize:'2.5vw'}} ><img src='images/logo.png' width='40vw'></img>Plantous</Navbar.Brand>
+        <Navbar.Brand className='text-success lobster-regular ' style={{fontSize:'32px'}} ><img src='images/logo.png' width='45vw'></img>Plantous</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto text-center">
+          <Nav className="me-auto ">
             
-
-        
           </Nav>
+        
+        
 
-          <div class="d-flex">
+          <div className="row ">
             
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/home'>Home</Link></Nav.Link>
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/shopplants'>Plants</Link></Nav.Link>
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/planters'>Planters</Link></Nav.Link>
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/plantcare'>Plant Care</Link></Nav.Link>
-          
-          
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/Decoridea'>Decor Ideas</Link></Nav.Link>
-          <Nav.Link ><Link  className='text-decoration-none text-success caveat px-3' to='/services'>Services</Link></Nav.Link>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/home'>Home</Link></Nav.Link></div>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/shopplants'>Plants</Link></Nav.Link></div>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/planters'>Planters</Link></Nav.Link></div>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/plantcare'>PlantCare</Link></Nav.Link></div>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/Decoridea'>DecorIdeas</Link></Nav.Link></div>
+         <div className='col-lg'> <Nav.Link ><Link  className='text-decoration-none text-success  caveat ' style={{fontSize:'22px'}} to='/services'>Services</Link></Nav.Link></div>
           
           
       </div>
+    
         </Navbar.Collapse>
       </Container>
     </Navbar>

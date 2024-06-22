@@ -27,7 +27,7 @@ const PlantCare = () => {
 </div>
             <div className='row po'>
             <section className='col-lg-8 p-5'>
-          <div><h1 className=' caveat text-start text-success' style={{fontSize:'3.5vw'}} >
+          <div><h1 className=' caveat text-start text-success' style={{fontSize:'38px'}} >
             Plant Accessories </h1></div>
         <div className="row row-cols-1 row-cols-md-2 g-4 ">
   {
@@ -45,8 +45,8 @@ const PlantCare = () => {
       <img src={d.img} alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c px-2 ">
     
-            <p style={{fontSize:'1.8vw'}}>{d.name}</p>
-            <p style={{fontSize:'2vw'}}>{d.price} tk  <small className='text-light'> only</small></p>
+            <p style={{fontSize:'24px'}}>{d.name}</p>
+            <p style={{fontSize:'24px'}}>{d.price} tk  <small className='text-light'> only</small></p>
         
       </div>
     </div>
@@ -58,8 +58,9 @@ const PlantCare = () => {
         <div className='bg-light border '>     
         <button onClick={()=>handleAddtoordereditem(d)} 
                 type="button" 
-                class="btn btn-light">
-                <FontAwesomeIcon icon={faCartShopping} /> add to ordered list
+                class="btn btn-light"
+                style={{fontSize:'24px'}}>
+                <FontAwesomeIcon style={{fontSize:'18px'}} icon={faCartShopping} /> add to ordered list
         </button>
 
             </div>

@@ -51,9 +51,9 @@ setDisplayplants(matchedPlants);
   <div className='col-lg-8 pt-5 '>
   <div className='container caveat px-5' >
 
-<h3 className='text-start text-success'>We Have {plants.length} types of Different Plants For You!! <br></br>  
+<h3 className='text-start text-success' style={{fontSize:'32px'}}>We Have {plants.length} types of Different Plants For You!! <br></br>  
 <input className="form-control p-2 mt-3  me-2  search-bar" type="text" onChange={handleSearch}
-  style={{fontSize:'1.5vw'}} placeholder='search-your-favourite-plant' aria-label="Search"/>
+  style={{fontSize:'24px'}} placeholder='search-your-favourite-plant' aria-label="Search"/>
 </h3>
     
 </div>

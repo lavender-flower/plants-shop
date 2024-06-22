@@ -19,10 +19,10 @@ const Plant = (props) => {
   <img src={img} alt="Avatar" className="image-c card-img-top" height='320vw'/>
   <div className="overlay-c d-flex justify-content-between p-2">
     <div className='text-start'>
-        <p>{name}</p>
-        <p>{category}</p>
+        <p style={{fontSize:'24px'}}>{name}</p>
+        <p style={{fontSize:'24px'}}>{category}</p>
     </div>
-    <div className='text-end'>
+    <div className='text-end' style={{fontSize:'24px'}}>
         <p>{price} tk</p>
         <p>{size}</p>
     </div>
@@ -34,7 +34,7 @@ const Plant = (props) => {
     <div className='bg-light rounded-bottom'>
     <button 
                          onClick={()=>props.handleAddtoordereditem(props.plant)} 
-                          type="button" className="btn btn-light"><FontAwesomeIcon icon={faCartShopping} /> add to ordered lis</button>
+                          type="button" className="btn btn-light" style={{fontSize:'24px'}}><FontAwesomeIcon  style={{fontSize:'18px'}} icon={faCartShopping} /> add to ordered list</button>
 
      
       </div>

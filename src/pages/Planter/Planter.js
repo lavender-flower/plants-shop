@@ -24,7 +24,7 @@ const Planter = () => {
         
              <section className='px-5  row po '>
 <div className='col-lg-8 pt-5'>
-<div><h1 className='caveat text-start text-success' style={{fontSize:'3vw'}} >
+<div><h1 className='caveat text-start text-success' style={{fontSize:'48px'}} >
              Do You Need to Decor Your plant?</h1></div>
           
         <div className=" row row-cols-1 row-cols-md-2 g-4 ">
@@ -43,15 +43,15 @@ const Planter = () => {
       <img src={d.img} alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c d-flex justify-content-between p-2">
         <div className='text-start'>
-            <p style={{fontSize:'1.8vw'}}>{d.name}</p>
-            <p>{d.ppl} ordered</p>
+            <p style={{fontSize:'24px'}}>{d.name}</p>
+            <p style={{fontSize:'24px'}}>{d.ppl} ordered</p>
          
         </div>
         <div className='text-end'>
            
            
-            <p>{d.category}</p>
-            <p style={{fontSize:'2vw'}}>{d.price} tk  <small className='text-light'> each</small></p>
+            <p style={{fontSize:'24px'}}>{d.category}</p>
+            <p style={{fontSize:'24px'}}>{d.price} tk  <small className='text-light'> each</small></p>
         </div>
       </div>
     </div>
@@ -63,8 +63,9 @@ const Planter = () => {
         <div className='bg-light border '>     
         <button onClick={()=>handleAddtoordereditem(d)} 
                 type="button" 
-                class="btn btn-light">
-                <FontAwesomeIcon icon={faCartShopping} /> add to ordered list
+                class="btn btn-light"
+                style={{fontSize:'24px'}}>
+                <FontAwesomeIcon style={{fontSize:'18px'}} icon={faCartShopping} /> add to ordered list
         </button>
 
             </div>

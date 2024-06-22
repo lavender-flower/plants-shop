@@ -28,7 +28,7 @@ const DecorIdea = () => {
         <div class="container-c">
       <img src='images/12.webp' alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c px-2 ">
-      <h3 className='caveat' style={{fontSize:'4vw'}}>Kitchen Decor</h3>
+      <h3 className='caveat' style={{fontSize:'38px'}}>Kitchen Decor</h3>
         
           
       </div>
@@ -41,7 +41,7 @@ const DecorIdea = () => {
         <div class="container-c">
       <img src='images/13.webp' alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c px-2 ">
-      <h3 className='caveat' style={{fontSize:'4vw'}}>Baranda Decor</h3>
+      <h3 className='caveat' style={{fontSize:'38px'}}>Baranda Decor</h3>
         
           
       </div>
@@ -55,7 +55,7 @@ const DecorIdea = () => {
         <div class="container-c">
       <img src='images/11.webp' alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c px-2 ">
-      <h3 className='caveat' style={{fontSize:'4vw'}}>BathRoom Decor</h3>
+      <h3 className='caveat' style={{fontSize:'38px'}}>BathRoom Decor</h3>
         
           
       </div>
@@ -68,7 +68,7 @@ const DecorIdea = () => {
         <div class="container-c">
       <img src='images/14.webp' alt="Avatar" class="image-c card-img-top" height='350vw'/>
       <div class="overlay-c px-2 ">
-      <h3 className='caveat' style={{fontSize:'4vw'}}>Living Room Decor</h3>
+      <h3 className='caveat' style={{fontSize:'38px'}}>Living Room Decor</h3>
         
           
       </div>
@@ -81,7 +81,7 @@ const DecorIdea = () => {
         
     </div>     
 <div className='p-5 po'>
-    <p className='caveat text-success' style={{fontSize:'4vw'}}>Our Decors Album </p>
+    <p className='caveat text-success' style={{fontSize:'56px'}}>Our Decors Album </p>
 <div className="scroll-container">
 <img src="images/13.webp" alt="Cinque Terre"  height="400"/>
 <img src="images/11.webp" alt="Cinque Terre"  height="400"/>
@@ -102,13 +102,13 @@ const DecorIdea = () => {
 </div>
 
 <div className='caveat px-5'>
-  <h1 className='caveat text-success' style={{fontSize:'4vw'}}>Plant Styling FAQs</h1>
-<div className='text-start px-5 pb-5'>
+  <h1 className='caveat text-success' style={{fontSize:'56px'}}>Plant Styling FAQs</h1>
+<div className='text-start pb-5'>
 <div class="dropdown d-flex justify-content-between">
-  <span style={{fontSize:'2vw'}}>What is plant Styling? </span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}}  icon={faCaretDown} /></span>
+  <span style={{fontSize:'24px'}}>What is plant Styling? </span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}}  icon={faCaretDown} /></span>
 
 
-  <div class="dropdown-content">
+  <div class="dropdown-content" style={{fontSize:'18px'}}>
   <p>Personalised plant styling is a complimentary service we provide for customers looking to order a min. of $1000 spend with us.
 
 This is coupled with a site visit and where our team would propose plants and planters into your indoor or outdoor spaces to enhance aesthetics and create a harmonious environment.</p>
@@ -117,11 +117,11 @@ This is coupled with a site visit and where our team would propose plants and pl
 </div>
 <hr></hr>
 <br></br>
-<div class="dropdown d-flex justify-content-between">
-  <span style={{fontSize:'2vw'}}>How does our plant styling services work?</span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}}  icon={faCaretDown}/></span>
+<div class="dropdown d-flex justify-content-between" >
+  <span style={{fontSize:'24px'}}>How does our plant styling services work?</span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}}  icon={faCaretDown}/></span>
 
 
-  <div class="dropdown-content">
+  <div class="dropdown-content" style={{fontSize:'18px'}}>
   <p>We offer two types of plant styling service.<br></br>
 
 1) Online Plant Styling & Recommendations<br></br>
@@ -149,10 +149,10 @@ Chat with us today if you are looking to add greens to your space today!</p>
 <hr></hr>
 <br></br>
 <div class="dropdown d-flex justify-content-between">
-  <span style={{fontSize:'2vw'}}>How does cost?</span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}} icon={faCaretDown}/></span>
+  <span style={{fontSize:'24px'}}>How does cost?</span><span><FontAwesomeIcon style={{fontSize:'1.3vw',color:'gray'}} icon={faCaretDown}/></span>
 
 
-  <div class="dropdown-content">
+  <div class="dropdown-content" style={{fontSize:'18px'}}>
   <p> Personalised Plant Styling<br></br>
   Min. spend per project is 1000tk. We would take 500tk upfront prior to site visit, which is credited towards any purchases made with us in-store.</p>
   </div>
